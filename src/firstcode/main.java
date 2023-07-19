@@ -5,25 +5,25 @@ class main {
         //start to all main Java functions
 
         int n = 5;
-        int foo[]; // NEW WAY TO WRITE ARRAY: 1) declare array with (type) name[];
-        foo = new int[5]; //2) to allocate storage, write name = new (type)[size];
+        int engineer[]; // NEW WAY TO WRITE ARRAY: 1) declare array with (type) name[];
+        engineer = new int[5]; //2) to allocate storage, write name = new (type)[size];
         int i = 0; /* **for some reason I cannot declare i in the for loop;
 	                    should not be a problem since it works in C. */
 
         for (i = 0; i < 5; i++) {
-            foo[i] = i;
+            engineer[i] = i;
         }
         // **Code asks to fill array from 0 to 4; can be done with for loop
 
         int m = 100;
-        int bar[];
-        bar = new int[100];
+        int gaming[];
+        gaming = new int[100];
         for (i = 0; i < 100; i++) {
-            bar[i] = i;
+            gaming[i] = i;
         }
 
-        System.out.println("The total number of even numbers in foo are: " + countEvenNum(foo, n) + "\n");
-        System.out.println("The total number of even numbers in bar are: " + countEvenNum(bar, m) + "\n");
+        System.out.println("The total number of even numbers in engineer are: " + countEvenNum(engineer, n) + "\n");
+        System.out.println("The total number of even numbers in gaming are: " + countEvenNum(gaming, m) + "\n");
 
 		/*same process for printing in C, just instead of
 		having a variable and then declaring it after the
